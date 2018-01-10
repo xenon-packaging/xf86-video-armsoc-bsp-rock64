@@ -1,0 +1,35 @@
+Source: xf86-video-armsoc
+Section: x11
+Priority: optional
+XSBC-Original-Maintainer: Marcin Juszkiewicz <marcin@juszkiewicz.com.pl>
+Maintainer: Ubuntu Developers <ubuntu-devel@lists.ubuntu.com>
+Build-Depends: debhelper (>= 8),
+               quilt,
+               dh-autoreconf,
+               libdrm-dev (>= 2.4.33-3),
+               libudev-dev,
+               libxext-dev,
+               pkg-config,
+               x11proto-core-dev,
+               x11proto-fonts-dev,
+               x11proto-gl-dev,
+               x11proto-xf86dri-dev,
+               xutils-dev,
+               xserver-xorg-dev (>= 2:1.16.99.901)
+Standards-Version: 3.9.4
+
+Package: xserver-xorg-video-armsoc
+Architecture: armel armhf arm64
+Depends: ${misc:Depends}
+Description: X.Org X server -- ARM SoC display driver (transitional package)
+ This driver for the X.Org X server (see xserver-xorg for a further
+ description) provides support for OMAP2 and newer devices including
+ Samsung Exynos5.
+ .
+ The driver depends on drm support in the kernel, which is
+ in the staging area of the mainline kernel since version 3.3.
+ .
+ More information about X.Org can be found at:
+  * <URL:http://www.X.org>
+  * <URL:http://xorg.freedesktop.org>
+  * <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
