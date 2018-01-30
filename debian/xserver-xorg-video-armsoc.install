@@ -1,2 +1,3 @@
 usr/lib/xorg/modules/drivers/*.so
 usr/share/man
+debian/armsoc.conf etc/X11/xorg.conf.d/
