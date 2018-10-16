@@ -18,7 +18,7 @@ Build-Depends: debhelper (>= 8),
                xserver-xorg-dev (>= 2:1.16.99.901)
 Standards-Version: 3.9.4
 
-Package: xserver-xorg-video-armsoc
+Package: xserver-xorg-video-armsoc-bsp-rock64
 Architecture: arm64
 Depends: ${misc:Depends}
 Description: X.Org X server -- ARM SoC display driver (transitional package)
