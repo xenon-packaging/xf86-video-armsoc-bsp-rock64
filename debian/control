@@ -1,4 +1,4 @@
-Source: xf86-video-armsoc
+Source: xf86-video-armsoc-bsp-rock64
 Section: x11
 Priority: optional
 XSBC-Original-Maintainer: Marcin Juszkiewicz <marcin@juszkiewicz.com.pl>

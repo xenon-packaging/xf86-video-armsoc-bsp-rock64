@@ -1,16 +1,16 @@
-xf86-video-armsoc (1.9.3ayufan3) testing; urgency=medium
+xf86-video-armsoc-bsp-rock64 (1.9.3ayufan3) testing; urgency=medium
 
   * Properly build modules
 
  -- Kamil Trzciński <ayufan@ayufan.eu>  Mon, 18 Dec 2017 12:56:19 +0100
 
-xf86-video-armsoc (1.9.3ayufan1) testing; urgency=medium
+xf86-video-armsoc-bsp-rock64 (1.9.3ayufan1) testing; urgency=medium
 
   * Compile for arm64 too
 
  -- Kamil Trzciński <ayufan@ayufan.eu>  Sun, 17 Dec 2017 12:23:15 +0100
 
-xf86-video-armsoc (1.9.3) testing; urgency=medium
+xf86-video-armsoc-bsp-rock64 (1.9.3) testing; urgency=medium
 
   * new
 
